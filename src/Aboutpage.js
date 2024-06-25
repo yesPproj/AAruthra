@@ -1,7 +1,7 @@
 import React from "react";
 import './Aboutpage.css'
 import aboutImage from './about.png'; // Import the image
-import mKitchen from './M1.jpg';
+
 const AboutSection = () => {
   return (
     <section id="about" className="about-section">
