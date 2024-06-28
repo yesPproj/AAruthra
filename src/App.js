@@ -12,7 +12,7 @@ import InterlockingBricksInfo from './interlockcon';
 import SolidBricksInfo from './Solidbrickcon';
 import Aggregates from './Aggregatescon';
 import HollowbrickInfo from './Hollowbrickcon';
-// import Image from './image';
+import Image from './image';
 
 
 function App() {

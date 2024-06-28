@@ -22,8 +22,7 @@ const ImageGallery = () => {
 
   return (
     <section className="image-gallery">
-      <div className="container">
-        <h2 className="gallery-heading">Our Works</h2> {/* Add heading */}
+      <div className="container"> {/* Add heading */}
         <div className="gallery-grid">
           {images.slice(0, visibleImages).map((image, index) => (
             <div key={index} className="gallery-item">

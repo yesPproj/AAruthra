@@ -4,14 +4,14 @@
   height: auto;
   position: relative;
   overflow: hidden;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .slide {
   width: 100%;
   height: auto;
   border-radius: 5px;
-  background-size: contain; 
+  background-size: contain;
   background-position: center;
   transition: opacity 0.5s ease-in-out;
 }

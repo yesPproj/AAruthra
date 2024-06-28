@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import { FaWhatsapp, FaPhoneAlt } from "react-icons/fa"; // Import FaPhoneAlt icon
+// import { FaWhatsapp, FaPhoneAlt } from "react-icons/fa"; // Import FaPhoneAlt icon
 import { GiHamburgerMenu } from "react-icons/gi";
-import logoImage from "./about.png"; // Import your logo image
+// import logoImage from "./about.png"; // Import your logo image
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -15,7 +15,7 @@ const Navbar = () => {
     <>
       <nav className="main-nav">
         <div className="logo">
-          <img src={logoImage} alt="Logo" className="logo-image" />
+          {/* <img src={logoImage} alt="Logo" className="logo-image" /> */}
           <h1 className="logoTxt">Aaruthra Interiors</h1>
         </div>
 
@@ -33,7 +33,7 @@ const Navbar = () => {
             <li>
               <a href="/contact" onClick={handleMenuClick}>Contact</a>
             </li>
-            <li>
+            {/* <li>
               <a href="https://api.whatsapp.com/send?phone=9865343636" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
                 <FaWhatsapp className="whatsapp" />WhatsApp
               </a>
@@ -42,7 +42,7 @@ const Navbar = () => {
               <a href="tel:+919865343636">
                 <FaPhoneAlt className="phone" /> Call
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
 

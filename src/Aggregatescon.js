@@ -1,6 +1,6 @@
 import React from 'react';
 import './Aggregates.css'; // Import CSS file for styling
-// import aggregatesImage from './aggregates.png'; // Import image for aggregates
+import aggregatesImage from './aggregates.png'; // Import image for aggregates
 
 const AggregatesInfo = () => {
   return (

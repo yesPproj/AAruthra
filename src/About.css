@@ -21,10 +21,21 @@ body {
   margin-bottom: 40px;
 }
 
-.section-title h2 {
-  font-size: 36px;
-  font-weight: 600;
-  color: #333;
+.section-title h1 {
+  font-size: 90px;
+  font-weight: 900;
+  color: #073842;
+  text-align: left;
+  margin-left: 10rem;
+}
+
+.section-title1 h1 {
+  font-size: 25px;
+  font-weight: 500;
+  margin-left: 10rem;
+  padding-bottom: 5rem;
+  color: #073842;
+  text-align: left;
 }
 
 .about-content {
@@ -56,4 +67,35 @@ body {
   line-height: 1.8;
   color: #555;
   margin-bottom: 10px;
+}
+
+.services-menu {
+  background-color: #f9f9f9;
+  padding: 15px;
+}
+
+.services-menu ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+  text-align: left;
+  padding-left: 15%;
+  margin-top: -3%;
+  font-weight: 900;
+}
+
+.services-menu li {
+  display: flex;
+  grid-gap: 5px; /* Divide by the number of menu items */
+  text-align: left;
+  padding: 5px;
+  font-size: 20px;
+  color: #203556; /* Add a separator between items */
+}
+
+/* Optional: Style the menu item text */
+.services-menu span {
+  font-weight: 300;
+  font-size: 20px;
 }
